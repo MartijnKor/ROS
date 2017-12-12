@@ -1,0 +1,8 @@
+prefix=/home/daan/ros/install
+
+Name: pioneer
+Description: Description of pioneer
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/daan/ros/install/lib 
+Requires: 

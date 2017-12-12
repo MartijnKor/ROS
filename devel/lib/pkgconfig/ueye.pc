@@ -1,0 +1,8 @@
+prefix=/home/daan/ros/devel
+
+Name: ueye
+Description: Description of ueye
+Version: 0.0.10
+Cflags: -I/home/daan/ros/devel/include -I/home/daan/ros/src/ueye_camera/kmhallen-ueye-973c73c2bfce/include
+Libs: -L/home/daan/ros/devel/lib -lueye_nodelets
+Requires: roscpp roslib nodelet dynamic_reconfigure image_transport camera_calibration_parsers

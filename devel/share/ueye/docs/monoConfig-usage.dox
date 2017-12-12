@@ -1,0 +1,20 @@
+\subsubsection usage Usage
+\verbatim
+<node name="ueye" pkg="ueye" type="ueye">
+  <param name="config_path" type="str" value="" />
+  <param name="color" type="int" value="6" />
+  <param name="trigger" type="int" value="0" />
+  <param name="force_streaming" type="bool" value="False" />
+  <param name="hardware_gamma" type="bool" value="True" />
+  <param name="auto_exposure" type="bool" value="False" />
+  <param name="exposure_time" type="double" value="85.0" />
+  <param name="gain_boost" type="bool" value="False" />
+  <param name="auto_gain" type="bool" value="False" />
+  <param name="gain" type="int" value="100" />
+  <param name="zoom" type="int" value="1" />
+  <param name="frame_rate" type="double" value="30.0" />
+  <param name="pixel_clock" type="int" value="86" />
+  <param name="frame_id" type="str" value="/camera" />
+</node>
+\endverbatim
+

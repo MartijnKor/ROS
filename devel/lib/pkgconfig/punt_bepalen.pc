@@ -1,0 +1,8 @@
+prefix=/home/daan/ros/devel
+
+Name: punt_bepalen
+Description: Description of punt_bepalen
+Version: 0.0.0
+Cflags: -I/home/daan/ros/devel/include
+Libs: -L/home/daan/ros/devel/lib 
+Requires: message_runtime

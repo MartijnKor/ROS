@@ -1,0 +1,2 @@
+beginner_tutorials:bridge:cv_bridge:image_geometry:learning_joy:opencv_tests:punt_bepalen:punt_to_cmd:random_turtle:rosaria:ueye_camera/kmhallen-ueye-973c73c2bfce:vision_opencv
+-DCATKIN_DEVEL_PREFIX=/home/daan/ros/devel -DCMAKE_INSTALL_PREFIX=/home/daan/ros/install -G Unix Makefiles

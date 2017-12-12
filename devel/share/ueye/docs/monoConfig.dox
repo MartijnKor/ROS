@@ -1,0 +1,19 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~config_path" : \b [str] Path to load and store cfg files. min: , default: , max: 
+- \b "~color" : \b [int] Color mode min: -2147483648, default: 6, max: 2147483647
+- \b "~trigger" : \b [int] Trigger mode min: -2147483648, default: 0, max: 2147483647
+- \b "~force_streaming" : \b [bool] Force the camera to stream images. min: False, default: False, max: True
+- \b "~hardware_gamma" : \b [bool] Sets the camera hardware gamma correction. min: False, default: True, max: True
+- \b "~auto_exposure" : \b [bool] Sets the camera exposure duration to automatic. min: False, default: False, max: True
+- \b "~exposure_time" : \b [double] Sets the camera exposure time (ms) min: 0.06, default: 85.0, max: 200.0
+- \b "~gain_boost" : \b [bool] Enables constant hardware analog boost. min: False, default: False, max: True
+- \b "~auto_gain" : \b [bool] Sets the image to automatic. min: False, default: False, max: True
+- \b "~gain" : \b [int] Sets the image gain min: 100, default: 100, max: 400
+- \b "~zoom" : \b [int] The zoom level. (Global binning) min: 1, default: 1, max: 16
+- \b "~frame_rate" : \b [double] Sets the expected triggering rate  min: 1.0, default: 30.0, max: 240.0
+- \b "~pixel_clock" : \b [int] Pixel clock speed in MHz min: 5, default: 86, max: 86
+- \b "~frame_id" : \b [str] The optical camera tf frame set in message headers. min: , default: /camera, max: 
+

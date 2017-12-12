@@ -1,0 +1,8 @@
+prefix=/home/daan/ros/devel
+
+Name: rosaria
+Description: Description of rosaria
+Version: 0.9.0
+Cflags: -I/home/daan/ros/devel/include
+Libs: -L/home/daan/ros/devel/lib 
+Requires: roscpp nav_msgs geometry_msgs sensor_msgs tf

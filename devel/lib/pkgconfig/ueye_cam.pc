@@ -1,0 +1,8 @@
+prefix=/home/daan/ros/devel
+
+Name: ueye_cam
+Description: Description of ueye_cam
+Version: 1.0.16
+Cflags: -I/home/daan/ros/devel/include -I/home/daan/ros/src/ueye_cam-master/include
+Libs: -L/home/daan/ros/devel/lib -lueye_wrapper -lueye_cam_nodelet
+Requires: roscpp nodelet dynamic_reconfigure image_transport sensor_msgs camera_calibration_parsers camera_info_manager

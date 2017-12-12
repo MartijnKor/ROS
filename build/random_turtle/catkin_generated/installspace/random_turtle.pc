@@ -1,0 +1,8 @@
+prefix=/home/daan/ros/install
+
+Name: random_turtle
+Description: Description of random_turtle
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/daan/ros/install/lib 
+Requires: 
